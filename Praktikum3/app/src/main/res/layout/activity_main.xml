@@ -11,28 +11,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:inputType="number"
+        android:text="Zeitraum"
         tools:layout_editor_absoluteX="12dp"
         tools:layout_editor_absoluteY="34dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/editDistanz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:inputType="number"
+        android:text="Disatsanz"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="110dp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editMaxGeschw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:inputType="number"
+        android:text="MaxGeschwindigkeit"
         tools:layout_editor_absoluteX="12dp"
         tools:layout_editor_absoluteY="175dp" />
+
+    <Switch
+        android:id="@+id/swStillstand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stillstand "
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <Switch
+        android:id="@+id/swOnOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OnOff"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="431dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
