@@ -25,5 +25,8 @@ public class MainActivity extends AppCompatActivity {
         editDistanz = findViewById(R.id.editDistanz);
         editMaxGeschw = findViewById(R.id.editMaxGeschw);
         swStillstand = findViewById(R.id.swStillstand);
+
+
+        
     }
 }
