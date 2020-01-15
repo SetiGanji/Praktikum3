@@ -10,38 +10,83 @@
 9        android:targetSdkVersion="29" />
 9-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:5:5-19:19
-12        android:allowBackup="true"
-12-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.praktikum3.MainActivity" >
-21-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:14:17-69
-23-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:16:17-77
-25-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:5:5-78
+11-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21
+22    <application
+22-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:7:5-21:19
+23        android:allowBackup="true"
+23-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:8:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:9:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:10:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:11:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:12:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:13:9-40
+32        <activity android:name="com.example.praktikum3.MainActivity" >
+32-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:14:9-20:20
+32-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:14:19-47
+33            <intent-filter>
+33-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:15:13-19:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:16:17-69
+34-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:16:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:18:17-77
+36-->C:\Users\shamk\OneDrive\Desktop\Praktikum3\Praktikum3\app\src\main\AndroidManifest.xml:18:27-74
+37            </intent-filter>
+38        </activity>
+39        <!-- Needs to be explicitly declared on P+ -->
+40        <uses-library
+40-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+41            android:name="org.apache.http.legacy"
+41-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+42            android:required="false" />
+42-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\1b9026f860ab6935418a182675a0a44a\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+43
+44        <activity
+44-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\e91790921c910b5c0de2045e813ad59c\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+45            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+45-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\e91790921c910b5c0de2045e813ad59c\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+46            android:exported="false"
+46-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\e91790921c910b5c0de2045e813ad59c\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+47            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+47-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\e91790921c910b5c0de2045e813ad59c\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+48
+49        <meta-data
+49-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\033a6bbc4ce9a1986c762312d9292d9b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+50            android:name="com.google.android.gms.version"
+50-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\033a6bbc4ce9a1986c762312d9292d9b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+51            android:value="@integer/google_play_services_version" />
+51-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\shamk\.gradle\caches\transforms-2\files-2.1\033a6bbc4ce9a1986c762312d9292d9b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+52    </application>
+53
+54</manifest>
