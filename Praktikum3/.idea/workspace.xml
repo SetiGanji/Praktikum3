@@ -5,8 +5,10 @@
       <config />
     </shared>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/example/praktikum3/MainActivity.java" line="35" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ded5c9f-3a0b-4f18-bbaa-92443256de8e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
