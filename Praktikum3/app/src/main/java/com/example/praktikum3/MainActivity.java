@@ -27,6 +27,6 @@ public class MainActivity extends AppCompatActivity {
         swStillstand = findViewById(R.id.swStillstand);
 
 
-        
+
     }
 }
